@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    width: 100%;
+}
+body {
+background-color: #111;
+}
+
+.wrap {
+    display: flex;
+    gap: 20px;
+}
+.wrapper {
+    width: 350px;
+    background-color: #2b2b2b;
+    border-radius: 2%;
+    
+
+    h5 {
+        color: green;
+    }
+    h1 {
+        color: blue;
+        
+    }
+    h4 {
+        color: aquamarine;
+        
+    }
+    h2 {
+        color: blueviolet;
+    }
+    h3 {
+        color: deeppink;
+    }
+    h6 {
+        color: blue;
+    }
+    p {
+        color: blue;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.cards__box {
+    padding: 50px  20px 30px;
+}
+img {
+flex-direction: column;
+}
+
+@media (max-width: 648px) {
+    img {
+        width: 100%;
+        padding: 0 auto;
+        height: 200px;
+    }
+}
+
